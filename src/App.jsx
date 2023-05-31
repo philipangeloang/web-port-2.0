@@ -1,4 +1,5 @@
 import { AiOutlineMail } from "react-icons/ai";
+import { RxArrowTopRight } from "react-icons/rx";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           <img src="/hero-photo.png" alt="hero-image" className="h-32 w-32" />
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="mt-5 text-sm">Hi, I'm Philip 👋 </p>
+          <p className="text-[3.5rem] max-w-[29rem] text-center leading-[1.2] mt-2">I will transform your vision into a digital reality.</p>
+          <div className="flex gap-4 p-4"><span>Latest Projects</span><RxArrowTopRight /></div>
         </div>
       </section>
     </>
