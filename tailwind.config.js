@@ -4,11 +4,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: "Poppins",
+        outfit: "Outfit",
       },
       colors: {
         "main-black": "#161616",
         "main-white": "#bdbdbd",
+        "overlay-black": "#1a1a1a",
       },
     },
   },

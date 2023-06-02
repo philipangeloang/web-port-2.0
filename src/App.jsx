@@ -1,5 +1,6 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { RxArrowTopRight } from "react-icons/rx";
+import TechCarousel from "./components/TechCarousel";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <div className="cursor-pointer hover:opacity-50">Resume</div>
           </div>
         </nav>
-        <hr className="bg-main-black border border-[#1a1a1a] mt-4 max-w-6xl mx-auto" />
+        <hr className="bg-main-black border border-overlay-black mt-4 max-w-6xl mx-auto" />
       </section>
 
       <section className="w-full px-7 mt-20">
@@ -27,9 +28,20 @@ function App() {
           <img src="/hero-photo.png" alt="hero-image" className="h-32 w-32" />
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="mt-5 text-sm">Hi, I'm Philip 👋 </p>
-          <p className="text-[3.5rem] max-w-[29rem] text-center leading-[1.2] mt-2">I will transform your vision into a digital reality.</p>
-          <div className="flex gap-4 p-4 "><span>Latest Projects</span><RxArrowTopRight /></div>
+          <p className="text-[3.5rem] max-w-[29rem] text-center leading-[1.2] mt-2">
+            I will transform your vision into a digital reality.
+          </p>
+          <div className="cursor-pointer rounded-md flex justify-center items-center gap-3 py-4 px-10 mt-10 bg-overlay-black border border-main-white/5 hover:scale-95">
+            <span className="bg-overlay-black text-main-white/70">
+              Latest Projects
+            </span>
+            <RxArrowTopRight className="bg-overlay-black" />
+          </div>
         </div>
+      </section>
+
+      <section className="w-full h-44 mt-16 bg-overlay-black border border-main-white/5 flex justify-center items-center p-4">
+        <TechCarousel />
       </section>
     </>
   );
