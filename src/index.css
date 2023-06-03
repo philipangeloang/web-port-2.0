@@ -8,7 +8,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #161616;
   color: #bdbdbd;
   font-family: "Outfit";
+}
+
+body {
+  background-color: #161616;
+}
+
+/* Tailwind Styles */
+
+.link {
+  @apply cursor-pointer hover:opacity-50 text-main-white/70;
+}
+
+.divider {
+  @apply bg-main-black border border-overlay-black mt-4 max-w-6xl mx-auto;
+}
+
+.heading-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-main-white via-main-white to-main-black;
+}
+
+.service-card {
+  @apply bg-overlay-black border border-main-white/5 pt-32 pb-10 px-5 col-span-3;
 }
