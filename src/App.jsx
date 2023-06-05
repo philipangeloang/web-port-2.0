@@ -1,9 +1,8 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { RxArrowTopRight } from "react-icons/rx";
-import { SiPowerpages, SiManageiq } from "react-icons/si";
-import { BsPersonBadgeFill } from "react-icons/bs";
-import { GiPerspectiveDiceSixFacesRandom } from "react-icons/gi";
 import TechCarousel from "./components/TechCarousel";
+import Services from "./components/Services";
+import Packages from "./components/Packages";
 
 function App() {
   return (
@@ -19,6 +18,7 @@ function App() {
           <div className="flex gap-4 items-center text-sm">
             <div className="link">Home</div>/
             <div className="link">Services</div>/
+            <div className="link">Packages</div>/
             <div className="link">Projects</div>/
             <div className="link">Resume</div>
           </div>
@@ -48,50 +48,11 @@ function App() {
       </section>
 
       <section className="w-full px-7 mt-28">
-        <div className="max-w-6xl mx-auto flex flex-col justify-center items-center">
-          <p className="text-main-white text-4xl heading-gradient">
-            Services Offered
-          </p>
-          <div className="grid gap-4 grid-cols-12 w-full mt-20">
-            <div className="service-card">
-              <SiPowerpages size={40} />
-              <p className="mt-5 text-xl heading-gradient">Landing Pages</p>
-              <p className="mt-5 text-sm pr-2 text-main-white/50">
-                Developing a single-page website that is responsive, intuitive,
-                and efficient to use.
-              </p>
-            </div>
+        <Services />
+      </section>
 
-            <div className="service-card">
-              <BsPersonBadgeFill size={40} />
-              <p className="mt-5 text-xl heading-gradient">Portfolio Website</p>
-              <p className="mt-5 text-sm pr-2 text-main-white/50">
-                Developing a single-page website that is responsive, intuitive,
-                and efficient to use.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <SiManageiq size={40} />
-              <p className="mt-5 text-xl heading-gradient">
-                Content Management
-              </p>
-              <p className="mt-5 text-sm pr-2 text-main-white/50">
-                Developing a single-page website that is responsive, intuitive,
-                and efficient to use.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <GiPerspectiveDiceSixFacesRandom size={40} />
-              <p className="mt-5 text-xl heading-gradient">Custom Websites</p>
-              <p className="mt-5 text-sm pr-2 text-main-white/50">
-                Developing a single-page website that is responsive, intuitive,
-                and efficient to use.
-              </p>
-            </div>
-          </div>
-        </div>
+      <section className="w-full px-7 mt-28">
+        <Packages />
       </section>
 
       <section className="w-full px-7 my-28">
