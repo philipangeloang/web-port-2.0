@@ -35,5 +35,5 @@ body {
 }
 
 .project-card {
-  @apply bg-overlay-black border border-main-white/5 col-span-6 rounded-md relative;
+  @apply bg-overlay-black border border-main-white/5 rounded-md relative h-[28rem] cursor-pointer hover:opacity-80;
 }

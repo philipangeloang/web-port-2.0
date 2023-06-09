@@ -15,9 +15,15 @@ import {
   SiMongodb,
   SiTrpc,
   SiTypescript,
+  SiMysql,
+  SiPrisma,
+  SiGit,
+  SiRedux,
+  SiReactquery,
+  SiJquery,
 } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
-import { FaReact } from "react-icons/fa";
+import { TbBrandNextjs, TbBrandFramerMotion } from "react-icons/tb";
+import { FaReact, FaVuejs } from "react-icons/fa";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
@@ -55,6 +61,9 @@ const TechCarousel = () => {
         <SiVite size={60} className="hover:opacity-50" />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center">
+        <FaVuejs size={60} className="hover:opacity-50" />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center">
         <IoLogoNodejs size={60} className="hover:opacity-50" />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center">
@@ -72,6 +81,28 @@ const TechCarousel = () => {
       <SwiperSlide className="flex justify-center items-center">
         <SiExpress size={60} className="hover:opacity-50" />
       </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center">
+        <SiMysql size={60} className="hover:opacity-50" />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center">
+        <SiPrisma size={60} className="hover:opacity-50" />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center">
+        <SiGit size={60} className="hover:opacity-50" />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center">
+        <TbBrandFramerMotion size={60} className="hover:opacity-50" />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center">
+        <SiRedux size={60} className="hover:opacity-50" />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center">
+        <SiReactquery size={60} className="hover:opacity-50" />
+      </SwiperSlide>
+      <SwiperSlide className="flex justify-center items-center">
+        <SiJquery size={60} className="hover:opacity-50" />
+      </SwiperSlide>
+
       <SwiperSlide className="flex justify-center items-center">
         <SiWordpress size={60} className="hover:opacity-50" />
       </SwiperSlide>

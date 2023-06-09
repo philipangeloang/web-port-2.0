@@ -2,6 +2,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/bundle";
+import {
+  SiExpress,
+  SiMongodb,
+  SiRedux,
+  SiShopify,
+  SiTailwindcss,
+  SiVite,
+  SiWebflow,
+} from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaReact } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -17,18 +29,157 @@ const Projects = () => {
       <Swiper
         modules={[Autoplay]}
         autoplay={true}
-        slidesPerView={7}
+        spaceBetween={50}
+        slidesPerView={5}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
+        className="mt-20"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Barangay 564
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Barangay Record Management System for Manila that fully-automated
+            all cumbersome barangay transactions.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <IoLogoJavascript />
+            <SiVite />
+            <TbBrandNextjs />
+            <SiMongodb />
+            <SiExpress />
+            <SiTailwindcss />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Sumida
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Article Summarizer powered by OpenAI GPT-4 that turns long articles
+            into brief and straightforward summaries.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <IoLogoJavascript />
+            <SiVite />
+            <SiTailwindcss />
+            <SiRedux />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Hiplip
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Personal Portfolio that showcases skills, experiences, and ventures
+            with rich UI/UX and fully responsive design.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <IoLogoJavascript />
+            <FaReact />
+            <SiTailwindcss />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Wuju
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Daily Expenses Tracker that tracks gains and loses through
+            statistical data presented in a dashboard.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <IoLogoJavascript />
+            <FaReact />
+            <SiTailwindcss />
+            <SiExpress />
+            <SiMongodb />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Livecoin
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Crypto Ticker for only the four most popular coins: BTC, ETH, SOL,
+            BNB that shows their prices and percent change.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <IoLogoJavascript />
+            <FaReact />
+            <SiTailwindcss />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Plagrab
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Plagiarism Checker using the Enchanced Rabin-Karp Algorithm
+            improving text-similarity consructs.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <IoLogoJavascript />
+            <SiVite />
+            <SiTailwindcss />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Upman
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Modified Hangman game that casts the characters of the Pixar
+            Animation Studios movie Up.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <IoLogoJavascript />
+            <SiVite />
+            <SiTailwindcss />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Digital Cover
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Landing page emphasizing in aesthetics and animation fully utilizing
+            code management sytem.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <SiWebflow />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Bosk UK
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Fully Functional E-Commerce site selling Office Pods and Phonebooths
+            located in London, United Kingdom
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <SiShopify />
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
