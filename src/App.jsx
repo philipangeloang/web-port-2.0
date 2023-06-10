@@ -10,7 +10,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <section className="w-full py-4 px-7">
+      <section id="nav" className="w-full py-4 px-7">
         <Navbar />
       </section>
 

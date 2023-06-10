@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
+import { BsArrowUp } from "react-icons/bs";
 const Navbar = () => {
   const [hamburger, setHamburger] = useState("left-[-100%]");
   return (
@@ -45,29 +46,48 @@ const Navbar = () => {
           <span className="block w-8 h-1 rounded-md bg-main-white/50"></span>
         </div>
 
+        <a
+          href="#nav"
+          className="fixed rounded-full bottom-5 z-10 right-5 h-10 w-10 bg-main-white/20 flex items-center justify-center hover:bg-main-black"
+        >
+          <BsArrowUp />
+        </a>
+
         {hamburger && (
           <div
             className={`fixed top-0 h-screen w-1/2 bg-main-white flex flex-col transition-all duration-300 z-10 ${hamburger} `}
           >
             <a
+              onClick={() => {
+                setHamburger("left-[-100%]");
+              }}
               href="#home"
               className="text-main-black text-sm p-4 border-b border-main-black/10"
             >
               Home
             </a>
             <a
+              onClick={() => {
+                setHamburger("left-[-100%]");
+              }}
               href="#services"
               className="text-main-black text-sm p-4 border-b border-main-black/10"
             >
               Services
             </a>
             <a
+              onClick={() => {
+                setHamburger("left-[-100%]");
+              }}
               href="#packages"
               className="text-main-black text-sm p-4 border-b border-main-black/10"
             >
               Packages
             </a>
             <a
+              onClick={() => {
+                setHamburger("left-[-100%]");
+              }}
               href="#projects"
               className="text-main-black text-sm p-4 border-b border-main-black/10"
             >
