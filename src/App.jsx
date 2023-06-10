@@ -14,7 +14,7 @@ function App() {
         <Navbar />
       </section>
 
-      <section className="w-full px-7 mt-20">
+      <section id="home" className="w-full px-7 mt-20">
         <Hero />
       </section>
 
@@ -22,15 +22,15 @@ function App() {
         <TechCarousel />
       </section>
 
-      <section className="w-full px-7 mt-28">
+      <section id="services" className="w-full px-7 mt-28">
         <Services />
       </section>
 
-      <section className="w-full px-7 mt-28">
+      <section id="packages" className="w-full px-7 mt-28">
         <Packages />
       </section>
 
-      <section className="w-full px-7 mt-28">
+      <section id="projects" className="w-full px-7 mt-28">
         <Projects />
       </section>
 

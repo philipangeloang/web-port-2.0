@@ -9,13 +9,19 @@ const Footer = () => {
           </span>
         </div>
         <div className="flex gap-4 items-center text-sm">
-          <div className="cursor-pointer hover:opacity-50 text-main-white/70">
+          <a
+            href="https://www.linkedin.com/in/philip-ang/"
+            className="cursor-pointer hover:opacity-50 text-main-white/70"
+          >
             Linkedin
-          </div>
+          </a>
           /
-          <div className="cursor-pointer hover:opacity-50 text-main-white/70">
+          <a
+            href="https://github.com/philipangeloang"
+            className="cursor-pointer hover:opacity-50 text-main-white/70"
+          >
             Github
-          </div>
+          </a>
         </div>
       </div>
     </>

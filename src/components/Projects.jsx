@@ -32,7 +32,7 @@ const Projects = () => {
         spaceBetween={25}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
-        className="mt-20"
+        className="mt-20 z-0"
         breakpoints={{
           375: {
             slidesPerView: 1,
