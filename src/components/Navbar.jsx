@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="link">Resume</div>
         </div>
 
-        <div className="space-y-1.5 md:hidden flex flex-col items-center justify-center">
+        <div className="space-y-1.5 md:hidden flex flex-col items-center justify-center cursor-pointer">
           <span className="block w-8 h-1 rounded-md bg-main-white/50"></span>
           <span className="block w-8 h-1 rounded-md bg-main-white/50"></span>
           <span className="block w-8 h-1 rounded-md bg-main-white/50"></span>
