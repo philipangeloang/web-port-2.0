@@ -9,11 +9,17 @@ const Navbar = () => {
             Get in Touch
           </span>
         </div>
-        <div className="flex gap-4 items-center text-sm">
+        <div className="hidden gap-4 items-center text-sm | md:flex">
           <div className="link">Home</div>/<div className="link">Services</div>/
           <div className="link">Packages</div>/
           <div className="link">Projects</div>/
           <div className="link">Resume</div>
+        </div>
+
+        <div className="space-y-1.5 md:hidden flex flex-col items-center justify-center">
+          <span className="block w-8 h-1 rounded-md bg-main-white/50"></span>
+          <span className="block w-8 h-1 rounded-md bg-main-white/50"></span>
+          <span className="block w-8 h-1 rounded-md bg-main-white/50"></span>
         </div>
       </nav>
       <hr className="divider" />

@@ -35,9 +35,25 @@ const TechCarousel = () => {
     <Swiper
       modules={[Autoplay]}
       autoplay={true}
-      slidesPerView={7}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
+      breakpoints={{
+        375: {
+          slidesPerView: 3,
+        },
+        662: {
+          slidesPerView: 4,
+        },
+        1072: {
+          slidesPerView: 5,
+        },
+        1376: {
+          slidesPerView: 6,
+        },
+        1600: {
+          slidesPerView: 7,
+        },
+      }}
     >
       <SwiperSlide className="flex justify-center items-center">
         <IoLogoHtml5 size={60} className="hover:opacity-50" />

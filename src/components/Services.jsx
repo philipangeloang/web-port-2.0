@@ -12,7 +12,7 @@ const Services = () => {
         <div className="service-card">
           <SiPowerpages size={40} />
           <p className="mt-5 text-xl heading-gradient">Landing Pages</p>
-          <p className="mt-5 text-sm pr-2 text-main-white/50">
+          <p className="mt-5 text-sm pr-10 md:pr-2 text-main-white/50">
             Developing a landing page website that is responsive, intuitive, and
             efficient to use.
           </p>
@@ -21,7 +21,7 @@ const Services = () => {
         <div className="service-card">
           <BsPersonBadgeFill size={40} />
           <p className="mt-5 text-xl heading-gradient">Portfolio Website</p>
-          <p className="mt-5 text-sm pr-2 text-main-white/50">
+          <p className="mt-5 text-sm pr-10 md:pr-2 text-main-white/50">
             Developing a portfolio website that showcases your projects, skills,
             and achivements.
           </p>
@@ -30,7 +30,7 @@ const Services = () => {
         <div className="service-card">
           <SiManageiq size={40} />
           <p className="mt-5 text-xl heading-gradient">Content Management</p>
-          <p className="mt-5 text-sm pr-2 text-main-white/50">
+          <p className="mt-5 text-sm pr-10 md:pr-2 text-main-white/50">
             Developing a website with a builder that let you customize your own
             website.
           </p>
@@ -39,7 +39,7 @@ const Services = () => {
         <div className="service-card">
           <GiPerspectiveDiceSixFacesRandom size={40} />
           <p className="mt-5 text-xl heading-gradient">Custom Websites</p>
-          <p className="mt-5 text-sm pr-2 text-main-white/50">
+          <p className="mt-5 text-sm pr-10 md:pr-2 text-main-white/50">
             Developing any website that you need made visually appealing and
             responsive.
           </p>

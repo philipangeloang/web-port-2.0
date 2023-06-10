@@ -29,11 +29,27 @@ const Projects = () => {
       <Swiper
         modules={[Autoplay]}
         autoplay={true}
-        spaceBetween={50}
-        slidesPerView={5}
+        spaceBetween={25}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         className="mt-20"
+        breakpoints={{
+          375: {
+            slidesPerView: 1,
+          },
+          662: {
+            slidesPerView: 2,
+          },
+          1072: {
+            slidesPerView: 3,
+          },
+          1376: {
+            slidesPerView: 4,
+          },
+          1600: {
+            slidesPerView: 5,
+          },
+        }}
       >
         <SwiperSlide className="project-card">
           <div className="w-full h-56 bg-main-white rounded-t-md"></div>
@@ -175,6 +191,62 @@ const Projects = () => {
           <p className="text-main-white/50 text-sm px-4 w-72">
             Fully Functional E-Commerce site selling Office Pods and Phonebooths
             located in London, United Kingdom
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <SiShopify />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Bird Supplies
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Fully Functional E-Commerce site selling Science Backed Bird Care
+            located in United States
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <SiShopify />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Tea Dog
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Fully Functional E-Commerce site selling completely healthy energy
+            located in United States tea.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <SiShopify />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            iGelSoles
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Fully Functional E-Commerce site selling shoes designed for
+            all-day-wear and comfort.
+          </p>
+          <div className="flex gap-2 px-4 absolute bottom-5">
+            <SiShopify />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="project-card">
+          <div className="w-full h-56 bg-main-white rounded-t-md"></div>
+          <p className="heading-gradient text-main-white font-bold text-2xl p-4">
+            Joule Body
+          </p>
+          <p className="text-main-white/50 text-sm px-4 w-72">
+            Fully Functional E-Commerce site selling kit for a fresh start with
+            nutrient rich bars and herbal teas.
           </p>
           <div className="flex gap-2 px-4 absolute bottom-5">
             <SiShopify />

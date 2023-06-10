@@ -31,7 +31,7 @@ body {
 }
 
 .service-card {
-  @apply bg-overlay-black border border-main-white/5 pt-32 pb-10 px-5 col-span-3 rounded-md;
+  @apply bg-overlay-black border border-main-white/5 pt-32 pb-10 px-5 rounded-md col-span-12 sm:col-span-6 md:col-span-3;
 }
 
 .project-card {
