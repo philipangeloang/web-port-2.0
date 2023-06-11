@@ -6,12 +6,15 @@ const Navbar = () => {
   return (
     <>
       <nav className="max-w-6xl mx-auto bg-main-black flex justify-between">
-        <div className="flex items-center gap-5">
+        <a
+          href="mailto:philipangeloang1@gmail.com?subject=Make me a Website!"
+          className="flex items-center gap-5"
+        >
           <AiOutlineMail className="bg-[#1a1a1a] cursor-pointer text-main-white border-2 rounded-full peer p-4 border-main-white/5 h-14 w-14" />
           <span className="text-sm link peer-hover:opacity-50">
             Get in Touch
           </span>
-        </div>
+        </a>
         <div className="hidden gap-4 items-center text-sm | md:flex">
           <div className="link">
             <a href="#home">Home</a>
@@ -28,7 +31,16 @@ const Navbar = () => {
           <div className="link">
             <a href="#projects">Projects</a>
           </div>
-          /<div className="link">Resume</div>
+          /
+          <div className="link">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://www.canva.com/design/DAFcfNmz_kI/OCZ43YkxcImw3WXm4R-ozw/view"
+            >
+              Resume
+            </a>
+          </div>
         </div>
 
         <div

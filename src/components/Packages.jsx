@@ -3,9 +3,9 @@ const Packages = () => {
     <div className="max-w-6xl mx-auto flex flex-col justify-center items-center">
       <p className="text-main-white text-4xl heading-gradient">Packages</p>
       <div className="grid gap-4 grid-cols-12 w-full mt-20">
-        {/* Standard */}
+        {/* Basic */}
         <div className="w-full p-4 border border-main-white/5 rounded-md shadow sm:p-8 bg-overlay-black col-span-12 | sm:col-span-6 | md:col-span-4">
-          <h5 className="mb-4 text-xl heading-gradient">Standard plan</h5>
+          <h5 className="mb-4 text-xl heading-gradient">Basic plan</h5>
 
           <ul role="list" className="space-y-5 my-7">
             <li className="flex space-x-3">
@@ -153,13 +153,15 @@ const Packages = () => {
             type="button"
             className="text-main-black bg-main-white hover:bg-main-white/50 font-medium rounded-md text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
           >
-            Choose plan
+            <a href="https://www.fiverr.com/leotarius/make-you-a-website-to-your-specification">
+              Choose Plan
+            </a>
           </button>
         </div>
 
-        {/* Intermediate */}
+        {/* Standard */}
         <div className="w-full p-4 border border-main-white/5 rounded-md shadow sm:p-8 bg-overlay-black col-span-12 | sm:col-span-6 | md:col-span-4">
-          <h5 className="mb-4 text-xl heading-gradient">Intermediate plan</h5>
+          <h5 className="mb-4 text-xl heading-gradient">Standard plan</h5>
 
           <ul role="list" className="space-y-5 my-7">
             <li className="flex space-x-3">
@@ -307,7 +309,9 @@ const Packages = () => {
             type="button"
             className="text-main-black bg-main-white hover:bg-main-white/50 font-medium rounded-md text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
           >
-            Choose plan
+            <a href="https://www.fiverr.com/leotarius/make-you-a-website-to-your-specification">
+              Choose Plan
+            </a>
           </button>
         </div>
 
@@ -461,7 +465,9 @@ const Packages = () => {
             type="button"
             className="text-main-black bg-main-white hover:bg-main-white/50 font-medium rounded-md text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
           >
-            Choose plan
+            <a href="https://www.fiverr.com/leotarius/make-you-a-website-to-your-specification">
+              Choose Plan
+            </a>
           </button>
         </div>
       </div>
