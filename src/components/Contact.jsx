@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <hr className="divider my-28" />
       <div className="max-w-6xl mx-auto flex flex-col justify-center items-center">
-        <p className="text-[3.5rem] max-w-[29rem] text-center leading-[1.2] mt-2 heading-gradient">
+        <p className="text-[2.5rem] md:text-[3.5rem] max-w-[29rem] text-center leading-[1.2] mt-2 heading-gradient">
           Tell me about your next project
         </p>
         <a
